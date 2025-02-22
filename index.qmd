@@ -1,5 +1,5 @@
 ---
-title: "publish-blog"
+title: "Hi! Welcome to my blog!"
 listing:
   contents: posts
   sort: "date desc"

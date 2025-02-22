@@ -13,7 +13,5 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog

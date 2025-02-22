@@ -5,6 +5,7 @@ date: "2025-02-21"
 categories: [notes]
 image: "dayile.png"
 ---
-![](dayile.png)
 
 This is a lecture note I prepared three years ago when I shared my microeconomics learning experience.
+
+[点击下载](5.20市场结构 葛家和.pdf)

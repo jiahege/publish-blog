@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "publish-blog"
+  title: "Home page"
   navbar:
     right:
       - about.qmd
