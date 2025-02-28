@@ -332,18 +332,22 @@ No matching items
   </label>  
   <!-- your other form fields go here -->
  
-<input type="radio" id="option1" name="option" value="1">
+<input type="radio" id="option1" name="option" value="1" onclick="toggleRadio(this)">
 <label for="option1">subscribe</label>
  
-<input type="radio" id="option2" name="option" value="2">
+<input type="radio" id="option2" name="option" value="2" onclick="toggleRadio(this)">
 <label for="option2">unsubscribe</label>
  
-<button onclick="uncheckAllRadios()">reset</button>
- 
 <script>
-function uncheckAllRadios() {
-    document.getElementById('option1').checked = false;
-    document.getElementById('option2').checked = false;
+let lastChecked = null;
+
+function toggleRadio(radio) {
+  if (radio === lastChecked) {
+    radio.checked = false;
+    lastChecked = null;
+  } else {
+    lastChecked = radio;
+  }
 }
 </script>
     
