@@ -331,10 +331,22 @@ No matching items
     <input type="file" name="upload">
   </label>  
   <!-- your other form fields go here -->
-  <br>
-  <input type="radio" id="checkbox1" name="group1" value="item1">
-  <label for="item1">subscribe</label><br>
-
+ 
+<input type="radio" id="option1" name="option" value="1">
+<label for="option1">subscribe</label>
+ 
+<input type="radio" id="option2" name="option" value="2">
+<label for="option2">unsubscribe</label>
+ 
+<button onclick="uncheckAllRadios()">reset</button>
+ 
+<script>
+function uncheckAllRadios() {
+    document.getElementById('option1').checked = false;
+    document.getElementById('option2').checked = false;
+}
+</script>
+    
   <button type="submit">Send</button>
     
 </form>
