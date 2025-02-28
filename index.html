@@ -310,9 +310,9 @@ No matching items
 </div>
 
 <!-- modify this form HTML and place wherever you want your form -->
-<p>Please <strong>leave me a message</strong> if you have any questions/suggestions/something to share.If it is not convenient to input text, you are also welcome to <strong>upload files.</strong></p>
+<p>Please <strong>leave me a message</strong> if you have any questions/suggestions/something to share. If it is not convenient to input text, you are also welcome to <strong>upload files.</strong></p>
 <p>If you would like to subscribe to my blog, please <strong>submit your email and select the "subscribe" button below</strong> and I will send you an update reminder when I update my blog.</p>
-<p>Please <strong>leave me a message</strong> if you have any questions or suggestions.</p>
+  
   <form
   action="https://formspree.io/f/xldgkdjj"
   method="POST"
@@ -339,16 +339,7 @@ No matching items
   <label for="item2">unsubscribe</label><br>
 
   <button type="submit">Send</button>
-
-document.querySelectorAll('input[type="radio"]').forEach(radio => {
-  radio.addEventListener('click', function() {
-    if (this.checked) {
-      setTimeout(() => this.checked = false, 0);
-    }
-  });
-});
-
-
+    
 </form>
 
 
@@ -783,5 +774,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <!-- 100% privacy-first analytics -->
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 
-
+<script>
+  document.querySelectorAll('input[type="radio"]').forEach(radio => {
+    radio.addEventListener('click', function() {
+      if (this.checked) {
+        setTimeout(() => this.checked = false, 0);
+      }
+    });
+  });
+</script>
 </body></html>
