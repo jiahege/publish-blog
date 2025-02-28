@@ -321,6 +321,11 @@ No matching items
   <label>
     Your email:<span style="margin-left: 21px;"></span>
     <input type="email" name="email" style="width: 250px; height: 30px">
+    <input type="radio" id="option1" name="option" value="1" onclick="toggleRadio(this)">
+    <label for="option1">subscribe</label>
+    
+<input type="radio" id="option2" name="option" value="2" onclick="toggleRadio(this)">
+<label for="option2">unsubscribe</label>
   </label>
   <label>
     Your message:
@@ -331,12 +336,6 @@ No matching items
     <input type="file" name="upload">
   </label>  
   <!-- your other form fields go here -->
- 
-<input type="radio" id="option1" name="option" value="1" onclick="toggleRadio(this)">
-<label for="option1">subscribe</label>
- 
-<input type="radio" id="option2" name="option" value="2" onclick="toggleRadio(this)">
-<label for="option2">unsubscribe</label>
  
 <script>
 let lastChecked = null;
