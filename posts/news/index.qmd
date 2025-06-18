@@ -3,9 +3,7 @@ title: "NEWS: I got my BACHELOR'S DEGREE!!!"
 author: "Jiahe Ge"
 date: "2025-06-18"
 categories: [news]
-image: "3.jpg"
-image: "2.jpg"
-image: "1.jpg"
+image: "1.jpg, 2.jpg, 3.jpg"
 ---
 ![](3.png)
 
